@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/parse/1.2.9/parse.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>ChatApp</h1>
+        <table class="table table-bordered table-striped">
+          <caption>Messages</caption>
+          <thead>
+            <tr>
+              <th>
+                Username
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-md-2">
+                No messages!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <form id="new-user">
+          <input type="text" name="username" placeholder="Username" />
+          <input type="text" name="message" placeholder="Message" />
+          <a id="send" class="btn btn-primary">SEND</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
